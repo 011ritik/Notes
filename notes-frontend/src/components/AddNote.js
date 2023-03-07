@@ -27,7 +27,7 @@ const AddNote = () => {
             <h3 className="text-3xl font-bold text-center">Add Note</h3>
             <div className="mt-8 text-center">
                 <form onChange={handleChange} onBlur={postData}>
-                    <textarea className="border-t-[1rem] border-emerald-600 w-3/4 bg-slate-300 h-96 p-7 text-black"></textarea>
+                    <textarea className="border-t-[1rem] border-sky-400 w-3/4 bg-stone-600 h-96 p-7 text-black"></textarea>
                 </form>
             </div>
         </>

@@ -38,32 +38,32 @@ const NoteDetail = () => {
     return (
         <>
             <div className="mt-8">
-                <div className="border-t-[1rem] border-emerald-600 w-3/4 bg-slate-600 mx-auto  h-max p-7">
-                    <div className="flex items-center justify-between bg-slate-600 mb-7">
+                <div className="border-t-[1rem] border-sky-400 w-3/4 bg-stone-600 mx-auto  h-max p-7">
+                    <div className="flex items-center justify-between bg-stone-600 mb-7">
                         <Link to={"http://localhost:3000/note/"}>
                             <img
                                 src="/arrow.png"
                                 alt="arrow"
-                                className="bg-slate-600 w-12"
+                                className="bg-stone-600 w-12"
                             />
                         </Link>
                         <Link to={`http://localhost:3000/note/delete/${id}`}>
                             <img
                                 src="/delete.png"
                                 alt="delete"
-                                className="bg-slate-600 w-8"
+                                className="bg-stone-600 w-8"
                             />
                         </Link>
                     </div>
-                    <from >
+                    <form >
                         <textarea
                             type='text'
-                            className="w-full bg-slate-600 mx-auto h-96 outline-0"
+                            className="w-full bg-stone-600 mx-auto h-96 outline-0"
                             value={note.note}
                             onChange={handleChange}
                             onBlur={updateNote}
                         ></textarea>
-                    </from>
+                    </form>
                 </div>
             </div>
         </>
