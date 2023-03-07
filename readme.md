@@ -16,7 +16,7 @@ This website is made with Django and ReactJS. It performs the basic CRUD operati
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/RitiKSIBJr/Notes.git
 ```
 
 Go to Backend the project directory
